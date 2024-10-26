@@ -1,0 +1,103 @@
+*{-webkit-box-sizing:border-box;
+-mozbox-sizing:border-box;
+box-sizing:border-box;
+}
+body{
+height: 1900px;
+padding: 0px;
+ margin:0px;
+ background-image: url('./images/kkll.jpg');
+ background-size: cover;
+text-align: center;
+background-repeat:no-repeat;
+}
+
+h1{color:#b3e5fc;}
+label{font-size: 23px;color:#b3e5fc;border-style:dotted 3px;}
+span{font-size: 23px;color:#b3e5fc;border-style:dotted 3px; }
+
+button{margin-left: 5px;height: 25px;color: white;background-color:#003153;border-radius: 10px;
+width: 90px;
+font-weight: bold;
+  text-decoration: none;
+  transition: .2s;
+}
+button:hover{
+  color:#255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3,
+              0 0 40px #2196f3,
+              0 0 80px #2196f3;
+}
+
+
+.i{
+   opacity: 0.5;height: 28px;text-indent:20px;border-radius: 10px;
+   font-size: 16px;background-color: #80deea ;
+}
+select{ color: #039be5;height: 25px;border-radius: 10px;}
+
+p{font-size: 23px;color:#b3e5fc;border-style:dotted 3px;}
+img{margin-left: 2px;}
+.isam{opacity: 0.6;font-weight: bold;margin-left:-1000px;}
+option{color: blue;background-color:white;border-radius: 8px;}
+
+   .first{height:30px;text-align:right;  width: 100%;background-color: white;opacity: 0.6;
+   border-radius: 8px;padding-bottom: 20px;}
+   
+   a{font-weight:bold;text-decoration: none;color: #26c6da;}
+.icon{width: 100%; text-align:right;margin-bottom: 13px;padding-top: 5px;}
+.icon span{margin-right: 30px;size:auto;padding-bottom: 20px;}
+i{color:#1976d2;size: 70px;}
+i:hover{
+ transform: rotate(30deg);
+   transition: 0.5s ease-in-out
+;
+ border-radius: 30px;
+}
+.ani2{
+ 
+}
+.vvv{font-size: 30px;
+animation: isam 2s infinite;
+padding: -2px;
+width: 200px;
+}
+
+@keyframes isam{
+   0%{
+    
+      text-shadow: 0 0 0px #039be5,
+             0 0 0px #039be5,
+            0 0 0px #039be5;
+      
+   }
+   
+   50%{color: red;
+      text-shadow: 0 0 10px #039be5,
+              0 0 40px #039be5,
+               0 0 80px #039be5,
+              0 0 100px #039be5;
+            
+   }
+    100%{
+    
+      text-shadow: 0 0 0px #2196f3,
+              0 0 0px #2196f3,
+              0 0 0px #2196f3;
+      
+   }}
+
+.finish{text-align: center;color: white;
+background: #555;
+opacity: 0.8;
+width: 100%;
+text-align: center;
+margin-bottom: -400px;
+
+}
+  
+  
+  .fa-facebook{color:blue;}
+  .fa-instagram{color:#e91e63;}
+  .fa-laptop-code{color: #4db6ac ;    }
